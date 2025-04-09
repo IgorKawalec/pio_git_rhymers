@@ -7,6 +7,7 @@ import edu.kis.vh.nursery.factory.Rhymersfactory;
 
 //projekt dziala
 //wszystkie testy przechodzą
+//
 class RhymersDemo {
 
     private static final int COUNTER = 15;
