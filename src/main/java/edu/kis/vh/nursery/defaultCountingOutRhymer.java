@@ -23,12 +23,12 @@ public class defaultCountingOutRhymer {
     }
         
     protected int peekaboo() {
-        if (callCheck()) return EMPTY_VALUE;
+        if (callCheck()) return DEFAULT_VALUE;
         return numbers[total];
     }
             
     public int countOut() {
-        if (callCheck()) return EMPTY_VALUE;
+        if (callCheck()) return DEFAULT_VALUE;
         return numbers[total--];
     }
 
