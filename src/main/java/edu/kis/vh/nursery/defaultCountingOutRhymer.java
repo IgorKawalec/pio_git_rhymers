@@ -9,6 +9,10 @@ public class defaultCountingOutRhymer {
 
     private int total = -1;
 
+    public int getTotal() {
+        return total;
+    }
+
     public void countIn(int in) {
         if (!isFull())
             numbers[++total] = in;
@@ -30,6 +34,18 @@ public class defaultCountingOutRhymer {
     public int countOut() {
         if (callCheck()) return DEFAULT_VALUE;
         return numbers[total--];
+    }
+
+    public static int getCAPACITY() {
+        return CAPACITY;
+    }
+
+    public static int getEmptyValue() {
+        return EMPTY_VALUE;
+    }
+
+    public static int getDefaultValue() {
+        return DEFAULT_VALUE;
     }
 
 }

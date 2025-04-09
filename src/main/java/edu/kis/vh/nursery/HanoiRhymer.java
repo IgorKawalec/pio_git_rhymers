@@ -15,4 +15,9 @@ int totalRejected = 0;
             else
                 super.countIn(in);
     }
+
+    public int getTotalRejected() {
+        return totalRejected;
+    }
+
 }

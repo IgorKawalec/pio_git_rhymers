@@ -13,7 +13,11 @@ class RhymersDemo {
 
     public static void main(String[] args) {
         Rhymersfactory factory = new DefaultRhymersFactory();
-        
+
+        test(factory);
+    }
+
+    private static void test(Rhymersfactory factory) {
         defaultCountingOutRhymer[] rhymers = { factory.GetStandardRhymer(), factory.GetFalseRhymer(),
                 factory.GetFIFORhymer(), factory.GetHanoiRhymer()};
         
@@ -35,5 +39,16 @@ class RhymersDemo {
                 + ((HanoiRhymer) rhymers[RHYMERS]).reportRejected());
         
     }
-    
+
+    public static int getCOUNTER() {
+        return COUNTER;
+    }
+
+    public static int getRHYMERS() {
+        return RHYMERS;
+    }
+
+    public static int getBOUND() {
+        return BOUND;
+    }
 }
