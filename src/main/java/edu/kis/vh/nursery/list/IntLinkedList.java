@@ -6,6 +6,10 @@ public class IntLinkedList {
     Node last;
     int i;
 
+    public static int getEmpty() {
+        return EMPTY;
+    }
+
     public void push(int i) {
         if (last == null)
             last = new Node(i);

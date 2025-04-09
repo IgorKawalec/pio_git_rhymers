@@ -36,4 +36,16 @@ public class defaultCountingOutRhymer {
         return numbers[total--];
     }
 
+    public static int getCAPACITY() {
+        return CAPACITY;
+    }
+
+    public static int getEmptyValue() {
+        return EMPTY_VALUE;
+    }
+
+    public static int getDefaultValue() {
+        return DEFAULT_VALUE;
+    }
+
 }
