@@ -20,7 +20,4 @@ int totalRejected = 0;
         return totalRejected;
     }
 
-    public void setTotalRejected(int tr) {
-        totalRejected = tr;
-    }
 }
