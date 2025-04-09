@@ -5,6 +5,8 @@ import edu.kis.vh.nursery.HanoiRhymer;
 import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
 import edu.kis.vh.nursery.factory.Rhymersfactory;
 
+//projekt dziala
+//wszystkie testy przechodzą
 class RhymersDemo {
 
     private static final int COUNTER = 15;
@@ -17,7 +19,7 @@ class RhymersDemo {
         test(factory);
     }
 
-    private static void test(Rhymersfactory factory) {
+    public static void test(Rhymersfactory factory) {
         defaultCountingOutRhymer[] rhymers = { factory.GetStandardRhymer(), factory.GetFalseRhymer(),
                 factory.GetFIFORhymer(), factory.GetHanoiRhymer()};
         
