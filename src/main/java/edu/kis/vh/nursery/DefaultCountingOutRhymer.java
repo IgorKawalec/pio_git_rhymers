@@ -43,8 +43,4 @@ public class DefaultCountingOutRhymer {
     public int[] getNumbers() {
         return numbers.clone();
     }
-
-    public void setTotal(int total) {
-        this.total = total;
-    }
 }
