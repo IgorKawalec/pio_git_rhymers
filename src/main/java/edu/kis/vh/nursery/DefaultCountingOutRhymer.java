@@ -4,10 +4,11 @@ public class DefaultCountingOutRhymer {
 
     private static final int EMPTY_STACK_VALUE = -1;
     private static final int STACK_CAPACITY = 12;
+    //wszystkie atrybuty podlegają hermetyzacji
 
     private int[] numbers = new int[STACK_CAPACITY];
 
-    public int total = EMPTY_STACK_VALUE;
+    private int total = EMPTY_STACK_VALUE;
 
     public void countIn(int in) {
         if (!isFull())
@@ -34,4 +35,12 @@ public class DefaultCountingOutRhymer {
         return numbers[total--];
     }
 
+    public int getTotal() {
+        return total;
+        //getter z polecenia 10, dodałem go w poleceniu 9
+    }
+
+    public int[] getNumbers() {
+        return numbers.clone();
+    }
 }
