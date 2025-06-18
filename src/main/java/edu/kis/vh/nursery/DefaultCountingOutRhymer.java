@@ -6,7 +6,7 @@ public class DefaultCountingOutRhymer {
     private static final int STACK_CAPACITY = 12;
     //wszystkie atrybuty podlegają hermetyzacji
 
-    private int[] numbers = new int[STACK_CAPACITY];
+    private final int[] numbers = new int[STACK_CAPACITY];
 
     private int total = EMPTY_STACK_VALUE;
 
