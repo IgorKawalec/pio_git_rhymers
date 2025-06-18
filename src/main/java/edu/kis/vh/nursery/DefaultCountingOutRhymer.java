@@ -40,8 +40,4 @@ public class DefaultCountingOutRhymer {
         return total;
         //getter z polecenia 10, dodałem go w poleceniu 9
     }
-
-    public int[] getNumbers() {
-        return numbers.clone();
-    }
 }
