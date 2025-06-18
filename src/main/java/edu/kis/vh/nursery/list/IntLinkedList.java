@@ -32,8 +32,8 @@ public class IntLinkedList {
     public int pop() {
         if (isEmpty())
             return IS_EMPTY;
-        int ret = last.value;
-        last = last.previous;
+        int ret = getLast().value;
+        last = getLast().previous;
         return ret;
     }
 
