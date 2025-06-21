@@ -11,12 +11,12 @@ public class Node {
     /**
      * The integer value stored in this node.
      */
-    final int value;
+    final private int value;
 
     /**
      * Reference to the previous and next node in the list.
      */
-    Node previous, next;
+    private Node previous, next;
 
     /**
      * Constructs a new Node with the specified integer value.
