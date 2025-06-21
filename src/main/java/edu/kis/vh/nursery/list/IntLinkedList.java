@@ -12,8 +12,8 @@ public class IntLinkedList {
             Node next=last.getNext();
             next = new Node(i);
             Node previous=next.getPrev();
-            previous = getLast();
-            last = getLast().getNext();
+            previous = last;
+            last = last.getNext();
         }
     }
 
@@ -34,12 +34,8 @@ public class IntLinkedList {
     public int pop() {
         if (isEmpty())
             return IS_EMPTY;
-        int ret = getLast().getValue();
-        last = getLast().getPrev();
+        int ret = last.getValue();
+        last = last.getPrev();
         return ret;
-    }
-
-    public Node getLast() {
-        return last;
     }
 }
