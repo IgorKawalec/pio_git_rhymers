@@ -1,0 +1,53 @@
+# Binaries
+*.class
+
+# Logs
+*.log
+
+# BlueJ
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+*.swp
